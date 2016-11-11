@@ -10,6 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#B4FFFF"
     tools:context="com.example.a403.a201544093.MainActivity">
 
     <!-- -to be commented xml block goes here -->
@@ -20,7 +21,8 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:background="@android:color/holo_green_dark"
-        android:textColor="@android:color/background_light" />
+        android:textColor="@android:color/background_light"
+        android:id="@+id/textview"/>
 
     <Button
         android:text="Hello"
@@ -36,7 +38,7 @@
         />
 
     <CheckBox
-        android:text="CheckBox"
+        android:text="배경색 하늘색으로"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/checkBox" />
@@ -47,14 +49,14 @@
         android:layout_height="wrap_content" >
 
         <RadioButton
-            android:text="RadioButton"
+            android:text="Man"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/radioButton"
             android:layout_weight="1" />
 
         <RadioButton
-            android:text="RadioButton"
+            android:text="Woman"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/radioButton2"
